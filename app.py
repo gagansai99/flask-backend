@@ -15,7 +15,7 @@ def message():
     text = data["text"]
 
     return jsonify({
-        "response": f"Server received: {text}"
+        "response": f"Server received Gagan: {text}"
     })
 
 
